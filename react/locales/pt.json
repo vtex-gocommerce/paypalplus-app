@@ -1,0 +1,13 @@
+{
+  "admin.payment.paypalplus.additionalData.description": "<p>Cadastre-se agora para ativar em sua loja virtual: <a href='https://www.paypal.com/br/webapps/mpp/paypal-payments-pro' target='_blank' class='blue'>clique aqui</a></p><ul class='g-pl5'><li>Aceite cartões VISA, MASTER, HIPERCARD, ELO diretamente em sua loja.</li><li>Tarifa: consulte a condição de sua conta diretamente com o Paypal, pois a tarifa pode variar de acordo com o perfil de cada vendedor.</li><li>Para visualizar condições comerciais de parcelamento, <a href='https://http://www.paypal.com/paypal/o-que-e' target='_blank' class='blue'>clique aqui</a></li></ul>",
+  "admin.payment.paypalplus.boxGeneral": "Geral",
+  "admin.payment.paypalplus.boxApplicationSetup": "Configuração do aplicativo",
+  "admin.payment.paypalplus.boxInstallments": "Parcelamento",
+  "admin.payment.paypalplus.creditCardActive": "Cartão ativo",
+  "admin.payment.paypalplus.minimumValue": "Valor mínimo",
+  "admin.payment.paypalplus.minimumValue.description": "Valor mínimo para exibir esta forma de pagamento",
+  "admin.payment.paypalplus.minimumInstallmentValue": "Valor mínimo da parcela",
+  "admin.payment.paypalplus.installments.numberOfInstallments": "Número de parcelas",
+  "admin.payment.paypalplus.installments.numberOfInstallmentsInterestFree": "Parcelas sem juros",
+  "admin.payment.paypalplus.installments.numberOfInstallmentsInterestFree.description": "Número de parcelas sem juros para esta forma de pagamento."
+}
