@@ -58,18 +58,34 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
           "title": intl.formatMessage({ id: `${intlPrefix}.boxApplicationSetup` }),
           "id": "applicationSetup",
           "fields": {
-            "affiliation.configuration.merchantUsername": {
+            "affiliation.configuration.clientId": {
               "type": "string",
               "widget": "text",
-              "title": "Merchant Username",
+              "title": "Client ID",
               "validate": {
                 "required": true
               }
             },
-            "affiliation.configuration.merchantPassword": {
+            "affiliation.configuration.secret": {
               "type": "string",
               "widget": "text",
-              "title": "Merchant Password",
+              "title": "Secret",
+              "validate": {
+                "required": true
+              }
+            },
+            "affiliation.configuration.userName": {
+              "type": "string",
+              "widget": "text",
+              "title": "Username",
+              "validate": {
+                "required": true
+              }
+            },
+            "affiliation.configuration.password": {
+              "type": "string",
+              "widget": "text",
+              "title": "Password",
               "validate": {
                 "required": true
               }
