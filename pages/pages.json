@@ -1,5 +1,13 @@
 {
+  "pages": {
+    "admin/gocommerce.paypalplus-app": {
+      "path": "/admin/gateway/payments/gocommerce.paypalplus-app"
+    }
+  },
   "extensions": {
+    "admin/gocommerce.paypalplus-app": {
+      "component": "index"
+    },
     "admin/gateway/paymentDetail/gocommerce.paypalplus-app": {
       "component": "index"
     },
