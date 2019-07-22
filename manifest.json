@@ -6,8 +6,14 @@
   "description": "PayPal Plus App",
   "mustUpdateAt": "2019-03-02",
   "credentialType": "absolute",
-  "registries": ["smartcheckout", "gocommerce"],
-  "categories": ["gocommerce", "payments"],
+  "registries": [
+    "smartcheckout",
+    "gocommerce"
+  ],
+  "categories": [
+    "gocommerce",
+    "payments"
+  ],
   "dependencies": {
     "gocommerce.admin-gateway": "2.x"
   },
@@ -15,5 +21,6 @@
     "react": "3.x",
     "admin": "0.x",
     "messages": "1.x"
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
