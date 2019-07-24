@@ -1,0 +1,6 @@
+{
+  "admin.gateway.paypalplus-app": {
+    "component": "index",
+    "path": "/admin/app/gateway/payments/gocommerce.paypalplus-app"
+  }
+}
