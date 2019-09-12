@@ -41,7 +41,7 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
               "widget": "hidden",
               "title": "interestRate"
             },
-            "creditCardActive": {
+            "redirectActive": {
               "type": "boolean",
               "widget": "toggle",
               "title": intl.formatMessage({ id: `${intlPrefix}.creditCardActive` })
@@ -101,7 +101,7 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
       },
       "initialValues": {
         "paymentAlias": "paypalplus",
-        "creditCardActive": false,
+        "redirectActive": false,
       }
     }
 
