@@ -41,7 +41,7 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
               "widget": "hidden",
               "title": "interestRate"
             },
-            "redirectActive": {
+            "creditCardActive": {
               "type": "boolean",
               "widget": "toggle",
               "title": intl.formatMessage({ id: `${intlPrefix}.creditCardActive` })
@@ -94,6 +94,36 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
             }
           }
         },
+        "boxInstallments": {
+          "title": intl.formatMessage({ id: `${intlPrefix}.boxInstallments` }),
+          "id": "installments",
+          "fields": {
+            "installments": {
+              "fields": {
+                "minimumInstallmentValue": {
+                  "type": "number",
+                  "widget": "currency",
+                  "title": intl.formatMessage({ id: `${intlPrefix}.minimumInstallmentValue` })
+                },
+                "numberOfInstallments": {
+                  "type": "number",
+                  "widget": "select",
+                  "title": intl.formatMessage({ id: `${intlPrefix}.installments.numberOfInstallments` }),
+                  "options": optionsInstallments,
+                  "validate": {
+                    "required": true
+                  }
+                }
+              }
+            },
+            "numberOfInstallmentsInterestFree": {
+              "type": "number",
+              "widget": "hidden",
+              "title": intl.formatMessage({ id: `${intlPrefix}.installments.numberOfInstallmentsInterestFree` }),
+              "description": intl.formatMessage({ id: `${intlPrefix}.installments.numberOfInstallmentsInterestFree.description` })
+            }
+          }
+        }
       },
       "additionalData": {
         "requireAuthorize": false,
@@ -101,7 +131,9 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
       },
       "initialValues": {
         "paymentAlias": "paypalplus",
-        "redirectActive": false,
+        "creditCardActive": false,
+        "numberOfInstallments": 12,
+        "numberOfInstallmentsInterestFree": 1
       }
     }
 
