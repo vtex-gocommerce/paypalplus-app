@@ -1,13 +1,13 @@
 {
-  "admin.payment.paypalplus.additionalData.description": "<p>Sign up now to active at your store: <a href='https://www.paypal.com/br/webapps/mpp/paypal-payments-pro' target='_blank' class='blue'>click here</a></p><ul class='g-pl5'><li>Accept credit cards VISA, MASTER, HIPERCARD, ELO.</li><li>Fee: check the conditions directly with Paypal. Rate may vary according to the profile of each seller.</li><li>To view the commercial installment terms, <a href='https://http://www.paypal.com/paypal/o-que-e' target='_blank' class='blue'>click here</a></li></ul>",
-  "admin.payment.paypalplus.boxGeneral": "General",
-  "admin.payment.paypalplus.boxApplicationSetup": "Application Setup",
-  "admin.payment.paypalplus.boxInstallments": "Installments",
-  "admin.payment.paypalplus.creditCardActive": "Active credit card?",
-  "admin.payment.paypalplus.minimumValue": "Minimum value",
-  "admin.payment.paypalplus.minimumValue.description": "Minimum amount to display this form of payment",
-  "admin.payment.paypalplus.minimumInstallmentValue": "Minimum installment value",
-  "admin.payment.paypalplus.installments.numberOfInstallments": "Number of installments",
-  "admin.payment.paypalplus.installments.numberOfInstallmentsInterestFree": "Number of installments interest free",
-  "admin.payment.paypalplus.installments.numberOfInstallmentsInterestFree.description": "Number of interest-free installments for this form of payment."
+  "admin/payment.paypalplus.additionalData.description": "<p>Sign up now to active at your store: <a href='https://www.paypal.com/br/webapps/mpp/paypal-payments-pro' target='_blank' class='blue'>click here</a></p><ul class='g-pl5'><li>Accept credit cards VISA, MASTER, HIPERCARD, ELO.</li><li>Fee: check the conditions directly with Paypal. Rate may vary according to the profile of each seller.</li><li>To view the commercial installment terms, <a href='https://http://www.paypal.com/paypal/o-que-e' target='_blank' class='blue'>click here</a></li></ul>",
+  "admin/payment.paypalplus.boxGeneral": "General",
+  "admin/payment.paypalplus.boxApplicationSetup": "Application Setup",
+  "admin/payment.paypalplus.boxInstallments": "Installments",
+  "admin/payment.paypalplus.creditCardActive": "Active credit card?",
+  "admin/payment.paypalplus.minimumValue": "Minimum value",
+  "admin/payment.paypalplus.minimumValue.description": "Minimum amount to display this form of payment",
+  "admin/payment.paypalplus.minimumInstallmentValue": "Minimum installment value",
+  "admin/payment.paypalplus.installments.numberOfInstallments": "Number of installments",
+  "admin/payment.paypalplus.installments.numberOfInstallmentsInterestFree": "Number of installments interest free",
+  "admin/payment.paypalplus.installments.numberOfInstallmentsInterestFree.description": "Number of interest-free installments for this form of payment."
 }
