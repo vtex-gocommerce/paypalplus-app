@@ -1,7 +1,7 @@
 {
   "name": "paypalplus-app",
   "vendor": "gocommerce",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "title": "PayPal Plus",
   "description": "PayPal Plus App",
   "mustUpdateAt": "2019-03-02",
